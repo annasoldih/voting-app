@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h3 {
+  padding: 20px;
+}
+
+.voting-main {
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.voting-header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: rgb(177, 191, 218);
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  margin: 10px;
+}
+
+.link-text {
+  display: inline-block;
+  width: 60px;
+  text-decoration: none;
+  color: rgb(0, 0, 141);
+  font-size: 0.9em;
+  font-weight: 600;
+
+}
+
+.voting-footer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: rgb(177, 191, 218);
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.user-login-area, .voting-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.user-login-area, .form-login {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__login_input, .login__password_input {
+  width: 300px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.login__button_input {
+  width: 100px;
+  margin: 15px;
+  padding: 10px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+}
+
+.login-warning {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(194, 0, 0);
+  width: 300px;
+}
+
+.candidate-div {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+}
+
+.candidate-radio {
+  display: inline-block;
+  margin: 5px;
+  width: 50px;
+}
+
+.candidate-name {
+  display: inline-block;
+  margin: 5px;
+  width: 300px;
+}
+
+.board {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.candidate-name-board {
+  display: inline-block;
+  margin: 5px;
+}
+
+.candidate-count-board {
+  display: inline-block;
+  margin: 5px;
+}
+
+.votou {
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: rgb(76, 122, 212);
+  justify-content: center;
+  align-items: center;
+}
